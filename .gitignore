@@ -1,0 +1,39 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Temporary Files
+*.tmp
+*.temp
+*~
+.~*
+
+# Cisco Packet Tracer Temp Files
+*.pka~
+*.pkt~
+
+# Documentation Temp Files
+~$*.docx
+~$*.doc
+*.bak
+
+# Editor and IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Compressed Files (except if intentionally added)
+*.zip
+*.tar.gz
+*.rar
