@@ -1,0 +1,29 @@
+# Pratique GRE - Packet Tracer File
+
+This directory should contain the Cisco Packet Tracer project file (.pkt).
+
+To add the actual Packet Tracer file:
+1. Open Cisco Packet Tracer
+2. Create the network topology with:
+   - R1 Router (Toronto) with configurations from configs/R1_config.txt
+   - R2 Router (Montreal) with configurations from configs/R2_config.txt
+   - ISP Router with configurations from configs/ISP_config.txt
+   - PCs/switches for LAN networks
+   - GRE tunnel configured between R1 and R2
+   - EIGRP routing protocol configured
+3. Test connectivity and verify GRE tunnel operation
+4. Save the project as Pratique_GRE.pkt
+5. Place the file in this directory
+
+Network Layout:
+- Toronto LAN: 192.168.10.0/24
+- Montreal LAN: 192.168.20.0/24
+- R1 WAN: 200.1.1.1/30
+- R2 WAN: 200.2.2.2/30
+- ISP interfaces: 200.1.1.2/30 and 200.2.2.1/30
+- GRE Tunnel: 10.0.0.0/30
+
+The file should demonstrate:
+- Working GRE tunnel between sites
+- EIGRP routing convergence
+- End-to-end connectivity between Toronto and Montreal LANs

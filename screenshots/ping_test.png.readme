@@ -1,0 +1,18 @@
+# Ping Test Screenshot
+
+This file should contain a screenshot demonstrating successful ping tests between:
+- Toronto LAN to Montreal LAN (across the GRE tunnel)
+- Example: ping from 192.168.10.10 to 192.168.20.10
+
+To add the actual screenshot:
+1. Open Packet Tracer and load the Pratique_GRE.pkt file
+2. Perform ping tests from a PC in Toronto network to a PC in Montreal network
+3. Capture a screenshot showing successful ping results
+4. Save as PNG format
+5. Replace this file with the actual ping_test.png image
+
+Expected screenshot should show:
+- Command prompt or terminal window
+- Ping command with destination IP
+- Successful ping replies with response times
+- Statistics showing 0% packet loss

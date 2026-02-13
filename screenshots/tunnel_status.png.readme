@@ -1,0 +1,21 @@
+# Tunnel Status Screenshot
+
+This file should contain a screenshot showing the GRE tunnel status and configuration.
+
+To add the actual screenshot:
+1. Open Packet Tracer and load the Pratique_GRE.pkt file
+2. Access R1 or R2 router CLI
+3. Run commands to verify tunnel status:
+   - show interface tunnel 0
+   - show ip interface brief
+   - show ip route (to verify routes through tunnel)
+4. Capture a screenshot showing tunnel is up and routing is working
+5. Save as PNG format
+6. Replace this file with the actual tunnel_status.png image
+
+Expected screenshot should show:
+- Tunnel interface status (up/up)
+- Tunnel source and destination
+- Tunnel IP address configuration
+- Line protocol status
+- Routing table entries using the tunnel interface

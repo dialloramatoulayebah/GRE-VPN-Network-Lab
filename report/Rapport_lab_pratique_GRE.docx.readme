@@ -1,0 +1,45 @@
+# Rapport Lab Pratique GRE
+
+This directory should contain the lab practical report document.
+
+To add the actual report:
+1. Create a comprehensive lab report document covering:
+   - Objectives of the GRE VPN lab
+   - Network topology description
+   - Configuration steps for R1, R2, and ISP routers
+   - GRE tunnel setup and verification
+   - EIGRP routing configuration
+   - Testing and validation results
+   - Screenshots of successful implementation
+   - Conclusion and lessons learned
+2. Save as Rapport_lab_pratique_GRE.docx (Microsoft Word format)
+3. Place the file in this directory
+
+Report Structure Suggestions:
+1. Introduction
+   - Lab objectives
+   - GRE tunnel overview
+   - EIGRP protocol overview
+
+2. Network Design
+   - Topology diagram
+   - IP addressing scheme
+   - Equipment list
+
+3. Configuration
+   - Detailed router configurations
+   - GRE tunnel parameters
+   - EIGRP settings
+
+4. Verification and Testing
+   - Ping tests between sites
+   - Tunnel status verification
+   - Routing table analysis
+   - Screenshots as evidence
+
+5. Troubleshooting (if any issues encountered)
+
+6. Conclusion
+   - Summary of achievements
+   - Key takeaways
+   - Recommendations

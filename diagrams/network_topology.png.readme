@@ -1,0 +1,21 @@
+# Network Topology Diagram
+
+This file should contain the network topology diagram showing:
+- R1 Router (Toronto)
+- R2 Router (Montreal)
+- ISP Router
+- GRE Tunnel connection between R1 and R2
+- LAN networks (192.168.10.0/24 for Toronto, 192.168.20.0/24 for Montreal)
+- WAN connections through ISP
+
+To add the actual diagram:
+1. Create a network topology diagram using a tool like draw.io, Visio, or Packet Tracer
+2. Export as PNG format
+3. Replace this file with the actual network_topology.png image
+
+Expected diagram elements:
+- Router icons for R1, R2, and ISP
+- Cloud/tunnel icon for GRE tunnel
+- PC/Switch icons for LAN networks
+- Labels for all interfaces and IP addresses
+- Legend showing the connection types

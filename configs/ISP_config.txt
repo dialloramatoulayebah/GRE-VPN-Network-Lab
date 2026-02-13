@@ -1,0 +1,22 @@
+! ISP Router Configuration
+! GRE VPN Network Lab
+!
+hostname ISP-Router
+!
+! Interface Configuration to R1 (Toronto)
+interface GigabitEthernet0/0
+ description Connection to R1-Toronto
+ ip address 200.1.1.2 255.255.255.252
+ no shutdown
+!
+! Interface Configuration to R2 (Montreal)
+interface GigabitEthernet0/1
+ description Connection to R2-Montreal
+ ip address 200.2.2.1 255.255.255.252
+ no shutdown
+!
+! Static Routes for reachability
+ip route 200.2.2.0 255.255.255.252 GigabitEthernet0/1
+ip route 200.1.1.0 255.255.255.252 GigabitEthernet0/0
+!
+end
