@@ -17,6 +17,14 @@ The goal is to simulate a real-world WAN environment where two private LAN netwo
 
 ---
 
+## 🔑 Key Skills for IT Support
+- Troubleshooting network connectivity issues
+- Configuring VPN tunnels (GRE)
+- Understanding TCP/IP and routing
+- VLAN segmentation and switch configuration
+- Diagnosing connectivity with ping and routing tables
+---
+
 ## 🏗️ Network Architecture
 - Two sites: Toronto (R1) and Montréal (R2)
 - ISP network acting as intermediary
