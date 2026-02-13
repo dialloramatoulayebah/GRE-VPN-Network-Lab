@@ -114,7 +114,7 @@ ping 192.168.20.1 source 192.168.10.1
 
 ## 📊 Key Features
 
-- ✓ GRE Tunnel encryption between sites
+- ✓ GRE Tunnel encapsulation between sites
 - ✓ EIGRP dynamic routing protocol
 - ✓ Site-to-site VPN connectivity
 - ✓ Scalable network design
