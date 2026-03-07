@@ -59,16 +59,11 @@ The goal is to simulate a real-world WAN environment where two private LAN netwo
 
 ---
 
-## 📸 Screenshots
-(Add your screenshots here)
-
----
-
 ## 📁 Project Files
 - Packet Tracer file (.pkt)
-- Configuration files
 - Network diagrams
 - Lab report
+- screenshots
 
 ---
 
